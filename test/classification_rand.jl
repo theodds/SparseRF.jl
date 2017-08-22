@@ -1,6 +1,5 @@
 using Base.Test
-using SpraseRF
-
+using SparseRF
 srand(16)
 
 n,m = 10^3, 5 ;

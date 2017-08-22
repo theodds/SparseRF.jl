@@ -182,9 +182,9 @@ function prune_tree(tree::LeafOrNode, purity_thresh=1.0)
     return pruned
 end
 
-apply_tree{S}(leaf::Leaf{S}, feature::Vector)::S = leaf.majority
+apply_tree{S}(leaf::Leaf{S}, feature::Vector) = leaf.majority
 
-function apply_tree{S,T}(tree::Node{S,T}, features::Vector)::S
+function apply_tree{S,T}(tree::Node{S,T}, features::Vector)
     if features[tree.featid] < tree.featval
         return apply_tree(tree.left, features)
     else
