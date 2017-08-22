@@ -1,11 +1,8 @@
 SparseRF.jl is licensed under the MIT License:
 
-Code is adapted from DecisionTree.jl Copyright (c) 2012-2013, Ben Sadeghi, which
-is itself adapted from MILK: Machine Learning Toolkit Copyright (c) 2008-2011,
-Luis Pedro Coelho <luis@luispedro.org> License: MIT. See COPYING.MIT file in the
-milk distribution
-
-Copyright (c) 2017, Antonio R. Linero
+Components from MILK: Machine Learning Toolkit Copyright(c) 2008-2011, Luis Pedra Coelho
+Components from DecisionTree.jl Copyright (c) 2012-2013, Ben Sadeghi
+Original work Copyright (c) 2017, Antonio R. Linero
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
