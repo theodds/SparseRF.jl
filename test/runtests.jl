@@ -1,5 +1,5 @@
 using Base.Test
-using DecisionTree
+using SparseRF
 
 tests = ["classification_rand.jl", "regression_rand.jl",
          "classification_scikitlearn.jl", "regression_scikitlearn.jl"]

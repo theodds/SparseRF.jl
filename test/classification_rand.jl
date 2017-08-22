@@ -1,5 +1,5 @@
 using Base.Test
-using DecisionTree
+using SpraseRF
 
 srand(16)
 

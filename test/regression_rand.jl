@@ -1,5 +1,5 @@
 using Base.Test
-using DecisionTree
+using SparseRF
 
 n,m = 10^3, 5 ;
 features = randn(n,m);

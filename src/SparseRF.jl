@@ -1,6 +1,6 @@
 __precompile__()
 
-module DecisionTree
+module SparseRF
 
 using Compat
 

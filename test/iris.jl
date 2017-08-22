@@ -1,6 +1,6 @@
 using Base.Test
 using RDatasets: dataset
-using DecisionTree
+using SparseRF
 
 iris = dataset("datasets", "iris");
 features = convert(Array, iris[:, 1:4]);

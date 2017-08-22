@@ -1,5 +1,5 @@
 using Base.Test
-using DecisionTree
+using SparseRF
 using ScikitLearnBase
 
 srand(2)
